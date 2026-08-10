@@ -1,0 +1,46 @@
+{
+  "cleaning": {
+    "initial_rows": 86616,
+    "duplicates_removed": 216,
+    "missing_cells_before": 1032,
+    "invalid_values_corrected": 9863,
+    "clean_rows": 86380
+  },
+  "clustering": {
+    "best_k": 3,
+    "silhouette": 0.8331945707253571,
+    "scores": {
+      "2": 0.8222186479476591,
+      "3": 0.8331945707253571,
+      "4": 0.514989094477936,
+      "5": 0.4727931534093668,
+      "6": 0.2882208912611807
+    }
+  },
+  "classification": {
+    "selected_model": "Random Forest",
+    "test_accuracy": 0.8981481481481481,
+    "test_precision": 0.8939470089317356,
+    "test_recall": 0.8981481481481481,
+    "test_f1": 0.8951822437759788
+  },
+  "regression": {
+    "selected_model": "Gradient Boosting",
+    "test_mae": 0.0169838621886398,
+    "test_rmse": 0.02917072980554859,
+    "test_r2": 0.7959547119909538,
+    "baseline_rmse": 0.03953279628964064
+  },
+  "anomaly": {
+    "precision": 0.5307692307692308,
+    "recall": 0.5328185328185329,
+    "f1": 0.5317919075144508,
+    "detected": 260,
+    "known_anomalies": 259
+  },
+  "hmm_demo": {
+    "room": "C201",
+    "samples": 600,
+    "state_accuracy": 0.8716666666666667
+  }
+}
