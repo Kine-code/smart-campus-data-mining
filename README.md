@@ -39,6 +39,3 @@ streamlit run dashboard/app.py
 - `results/figures/`: biểu đồ PNG.
 - `results/metrics/`: bảng so sánh mô hình và summary.json.
 - `models/`: mô hình tốt nhất đã lưu.
-
-## Lưu ý học thuật
-Dataset trong project là dữ liệu mô phỏng có cấu trúc giống hệ thống IoT Smart Campus. Khi có telemetry thật từ ThingsBoard/MongoDB, chỉ cần thay `data/raw/iot_raw.csv` theo đúng schema và chạy lại pipeline. Không nên trình bày dữ liệu mô phỏng như dữ liệu đo thật.
